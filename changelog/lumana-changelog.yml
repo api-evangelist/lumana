@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.lumana.ai/product-updates
+scheme: dated-monthly
+current: '2026-06'
+notes: >-
+  Lumana publishes a dated monthly product-update log at /product-updates
+  (also cross-posted on the /blog). Entries are release highlights rather than
+  a versioned API changelog; no per-endpoint API versioning is published on the
+  public surface.
+entries:
+- date: '2026-06-24'
+  title: 'June 2026 Product Updates'
+  highlights:
+  - Unified alert monitoring in VMS+ ("one place to see what's happening and act on it")
+  - New admin controls
+  - Device health tracking
+- date: '2026-04-21'
+  title: 'April 2026 Product Updates'
+  highlights:
+  - Camera password randomization
+  - MFA enforcement
+- date: '2026-02-26'
+  title: 'February 2026 Product Updates'
+  highlights:
+  - Custom state detection
+  - Expanded mobile app investigation capabilities

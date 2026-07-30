@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.lumana.ai/integrations
+spec_type: Webhooks
+summary: >-
+  Lumana documents a webhook surface on its integrations page: "Push Lumana data
+  to third-party systems to trigger real-time actions when specific events are
+  detected." It also supports inbound Event Tags (ingest third-party data and
+  index video with metadata) and describes a developer-friendly "Open API".
+  Detailed event payloads/schemas and the endpoint catalog are gated behind the
+  partner portal (lumana.magentrixcloud.com) and app.lumana.ai; no public
+  AsyncAPI document or event schema was published at the time of this pass, so
+  none is fabricated here.
+capabilities:
+- name: webhooks
+  direction: outbound
+  description: Push Lumana event data to third-party systems on detected events (real-time triggers).
+- name: event-tags
+  direction: inbound
+  description: Ingest third-party data and index video with metadata for enhanced alerts and investigations.
+- name: open-api
+  direction: bidirectional
+  description: Developer-friendly API endpoints for custom integrations (access gated behind partner portal).
+event_categories:
+- security-and-safety detections
+- operational alerts
+notes: Webhook event catalog and payload schemas are not publicly documented; capture is capability-level only.

@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.lumana.ai/trust
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type II confirmed by Advantage Partners against AICPA 2017 Trust Services Criteria for Security (lumana.ai/trust)
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance claimed on trust page
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance claimed on trust page
+- id: ndaa-section-889
+  conforms: true
+  evidence: Cameras comply with US 2019 National Defense Authorization Act Section 889
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false
