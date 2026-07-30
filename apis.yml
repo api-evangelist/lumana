@@ -1,9 +1,30 @@
 aid: lumana
 name: Lumana
-description: 'Lumana is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Lumana is an enterprise AI video security and intelligence platform that turns
+  existing camera infrastructure into AI agents for security, safety, and
+  operations. Its VIA-1 video intelligence model, Core Series edge AI engine, and
+  cloud-based VMS+ management software power Monitor, Response, Investigate, and
+  Insight agent capabilities across 50,000+ cameras at customers including Meta,
+  Salesforce, and McDonald's. Lumana exposes a developer-friendly Open API,
+  outbound webhooks for real-time event triggers, and inbound Event Tags, plus
+  pre-built integrations with access control, sensor, communications, monitoring,
+  camera, and SSO providers. API access is gated through the partner portal and
+  the app.lumana.ai console rather than a public developer portal. Backed by
+  Norwest Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6939c503b5b68b7bcb1b2510/694067287c5cb50f43ce6d0e_footer-logo-white.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Video Security
+- AI
+- Computer Vision
+- Physical Security
+- Surveillance
+- Video Management
+- Access Control
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://lumana.ai
+- type: DeveloperPortal
+  url: https://lumana.magentrixcloud.com/
+- type: Integrations
+  url: https://www.lumana.ai/integrations
+- type: Blog
+  url: https://www.lumana.ai/blog
+- type: Pricing
+  url: https://www.lumana.ai/pricing
+- type: Login
+  url: https://app.lumana.ai/auth/login
+- type: Support
+  url: https://www.lumana.ai/support
+- type: TermsOfService
+  url: https://www.lumana.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.lumana.ai/privacy-policy
+- type: Compliance
+  url: https://www.lumana.ai/trust
+- type: ChangeLog
+  url: changelog/lumana-changelog.yml
+- type: Webhooks
+  url: asyncapi/lumana-webhooks.yml
+- type: Conformance
+  url: conformance/lumana-conformance.yml
+- type: TrustCenter
+  url: security/lumana-trust-center.yml
+- type: DomainSecurity
+  url: security/lumana-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
