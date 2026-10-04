@@ -49,7 +49,7 @@ tags:
 - Company
 - Video Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Physical Security
 - Surveillance
 - Video Management
@@ -63,6 +63,7 @@ tags_raw:
 - Surveillance
 - Video Management
 - Access Control
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
