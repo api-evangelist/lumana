@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lumana is a company surfaced as a portfolio company of norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+Lumana is an enterprise AI video security and intelligence platform that turns existing camera infrastructure into AI agents for security, safety, and operations. Its VIA-1 video intelligence model, Core Series edge AI engine, and cloud-based VMS+ management software power Monitor, Response, Investigate, and Insight agent capabilities across 50,000+ cameras at customers including Meta, Salesforce, and McDonald's. Lumana exposes a developer-friendly Open API, outbound webhooks for real-time event triggers, and inbound Event Tags, plus pre-built integrations with access control, sensor, communications, monitoring, camera, and SSO providers. API access is gated through the partner portal and the app.lumana.ai console rather than a public developer portal. Backed by Norwest Venture Partners.
 
-Backed by: norwest-venture-partners — https://lumana.ai
+**Areas:** Company · Video Security · Artificial Intelligence · Computer Vision · Physical Security · Surveillance · Video Management · Access Control
+
+## Lumana on APIs.io
+
+Everything profiled for Lumana is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lumana/](https://apis.io/providers/lumana/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Lumana Webhooks](https://apis.io/asyncapis/lumana/lumana-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lumana Domain Security](https://apis.io/security/lumana/lumana-domain-security/)
+- [Lumana Trust Center](https://apis.io/security/lumana/lumana-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lumana Plans Pricing](https://apis.io/plans/lumana/lumana-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lumana.ai)
+- [Pricing](https://www.lumana.ai/pricing)
+- [Support](https://www.lumana.ai/support)
+- [Blog](https://www.lumana.ai/blog)
+- [Compliance](https://www.lumana.ai/trust)
+- [Terms of service](https://www.lumana.ai/terms-of-use)
+- [Privacy policy](https://www.lumana.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 35.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 53.9 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lumana/](https://apis.io/providers/lumana/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lumana: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lumana/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
